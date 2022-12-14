@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -24,15 +19,50 @@
   color: white;
 }
 
+.Name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  align-items: center;
+  font-family: "NameFont";
+  font-size: 40px;
+  padding-top: 100px;
+}
+
+.Name2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "NameFont";
+  font-size: 20px;
+}
+
+.fade-in {
+  transition: opacity 3s ease;
+  opacity: 1;
+}
+
+.fade-in2 {
+  opacity: 0;
+  animation-name: fadeInAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+ 
+
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  100% {
+      opacity: 1;
+   }
 }
