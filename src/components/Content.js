@@ -2,9 +2,9 @@ import React from 'react';
 
 const Content = () => {
     return (
-        <div className="grow flex fade-in2 pl-5 pr-5 pb-10">
-            <div className="basis-1/3"></div>
-            <div className="basis-1/2 mt-10 text-gray-600  font-regular-font">
+        <div className="grow flex justify-center fade-in2 pl-5 pr-5 pb-10">
+            <div className="sm:basis-1/3"></div>
+            <div className="basis-4/5 sm:basis-1/2 mt-10 text-gray-600  font-regular-font">
                 Hello and welcome to my site. I'm a recent computer science graduate from Princeton
                 University and I'm currently working at MongoDB. In my current role,
                 I work on the Atlas Data Lake team where we are expanding MongoDB's cloud product offerings to
@@ -20,7 +20,7 @@ const Content = () => {
                 weightlifting and nutrition. I'm currently diving into boxing and looking to improve my
                 driver.
             </div >
-            <div className="basis-1/3"></div>
+            <div className="sm:basis-1/3"></div>
         </div >
     );
 };
