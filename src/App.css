@@ -27,7 +27,7 @@
   align-items: center;
   font-family: "NameFont";
   font-size: 40px;
-  padding-top: 100px;
+  margin-top: -100px;
 }
 
 .Name2 {
@@ -52,10 +52,25 @@
   animation-fill-mode: forwards;
 }
 
- 
+.shadow {
+  text-shadow: 1px 0px 0px grey;
+}
+
+.nav-border {
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+}
 
 .App-link {
   color: #61dafb;
+}
+
+.min-h-custom {
+  min-height: 90vh;
+}
+
+.min-h-home {
+  min-height: 500px;
 }
 
 @keyframes fadeInAnimation {

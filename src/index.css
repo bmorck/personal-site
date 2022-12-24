@@ -17,3 +17,7 @@ code {
   src: local("muli.light"),
     url("./fonts/muli.light.ttf") format("truetype");
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

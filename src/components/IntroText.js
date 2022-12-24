@@ -1,36 +1,36 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
 import Typewriter from 'typewriter-effect'
 
-const IntroText = ({}) => {
+const IntroText = ({ }) => {
 
-    const [typeProp, setTypeProp] = useState({
-        type: true,
-    });
-    useEffect(() => {
-        setTimeout(() => {
-            setTypeProp({
-                type: false
-            })
-        }, 7000);
+  const [typeProp, setTypeProp] = useState({
+    type: true,
+  });
+  useEffect(() => {
+    setTimeout(() => {
+      setTypeProp({
+        type: false
+      })
+    }, 7000);
 
-        return () => {}
-    }, [])
+    return () => { }
+  }, [])
 
   return (
-    <div className="Name2">
-    {(typeProp.type) ? 
+    <div className=" Name2">
+      {(typeProp.type) ?
         (<Typewriter
           onInit={(typewriter) => {
             typewriter
               .changeDelay(100)
               .pauseFor(1000)
-              .typeString("I'm a software engineer based in NYC.")
+              .typeString("I'm a software engineer based in New York.")
               .start();
           }}
-        />) : <div>I'm a software engineer based in NYC.</div>
-        }
-      </div>
+        />) : <div>I'm a software engineer based in New York.</div>
+      }
+    </div>
   )
 }
 
