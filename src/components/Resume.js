@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../files/RobertMorckResume.pdf';
+import resume from '../files/RobertMorckResume2022.pdf';
 
 
 import princetonlogo from "../files/princetonlogo.png"
