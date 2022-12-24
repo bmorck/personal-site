@@ -18,6 +18,13 @@ code {
     url("./fonts/muli.light.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "MuliRegular";   /*Can be any text*/
+  src: local("muli.regular"),
+    url("./fonts/muli.regular.ttf") format("truetype");
+}
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

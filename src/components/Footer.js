@@ -12,7 +12,7 @@ const Footer = () => {
                 <SocialIcon style={{ height: 25, width: 25 }} className="pr-1" bgColor="#9c9c9c" url="https://medium.com/@rmorck3098" />
 
             </div>
-            <div className="pt-5"> Build with reactJS and tailwindcss. © Bobby Morck 2022</div>
+            <div className="pt-5"> Best viewed on Chrome and Firefox. Built with reactJS and tailwindcss. © Bobby Morck 2022</div>
 
         </div>
     );

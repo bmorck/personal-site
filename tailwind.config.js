@@ -9,7 +9,8 @@ module.exports = {
         'custom-bg-color': '#FFFBF0',
       },
       fontFamily: {
-        'display-font': ["NameFont"]
+        'display-font': ["NameFont"],
+        'regular-font': ["MuliRegular"]
       }
     },
     variants: {
