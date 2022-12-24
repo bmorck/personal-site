@@ -18,7 +18,7 @@ const IntroText = ({ }) => {
   }, [])
 
   return (
-    <div className=" Name2 pl-5 pr-5">
+    <div className=" Name2 pl-7 pr-7 text-center">
       {(typeProp.type) ?
         (<Typewriter
           onInit={(typewriter) => {
