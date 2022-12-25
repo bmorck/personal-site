@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'custom-bg-color': '#FFFBF0',
+        'custom-bg-color2': '#fcfbf5',
       },
       fontFamily: {
         'display-font': ["NameFont"],

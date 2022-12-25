@@ -2,7 +2,11 @@ import React from 'react';
 import resume from '../files/RobertMorckResume2022.pdf';
 
 
+import legionlogo from "../files/legionhealthlogo.png"
+import servicenowlogo from "../files/servicenowlogo.png"
 import princetonlogo from "../files/princetonlogo.png"
+import mongoDBlogo from "../files/mongodblogo.svg"
+
 
 const Resume = () => {
 
@@ -60,17 +64,18 @@ const Resume = () => {
 
                 <div className="pt-5 font-display-font">
                     <div>
-                        <div className="text-2xl pb-5">
+                        <div className="text-2xl pb-5 text-center md:text-left">
                             Education
                         </div>
-                        <div className="grid grid-rows-1 grid-flow-col">
-                            <div className="w-12 mr-5 ml-5">
+                        <div className="flex flex-col md:flex-row items-center border-0 drop-shadow-sm rounded-lg bg-custom-bg-color2 p-5">
+                            <div className="mr-5 ml-5 w-14 shrink-0 mx-auto">
                                 <img src={princetonlogo} alt="Princeton University" />
                             </div>
 
-                            <div className="text-lg">
-                                <span className="font-bold">Princeton University</span> - Graduated in May 2021 with a B.S.E. in Computer Science
-                            with a minor in Machine Learning
+                            <div className="text-lg ">
+                                <div className="font-bold text-center md:text-left pb-2">Princeton University</div>
+                                 Graduated in May 2021 with a B.S.E. in Computer Science
+                                 with a minor in Machine Learning
                             </div>
                         </div>
                         <div className=" pl-5 pt-5">
@@ -132,9 +137,45 @@ const Resume = () => {
 
                         </div>
 
-                        <div className="text-2xl pt-5">
+                        <div className="text-2xl pt-5 pb-5 text-center md:text-left">
                             Experience
                         </div>
+                        <div className="flex flex-col md:flex-row items-center border-0 drop-shadow-sm rounded-lg bg-custom-bg-color2 p-5">
+                            <div className="mr-5 ml-5 w-14 shrink-0 mx-auto">
+                                <img src={mongoDBlogo} alt="MongoDB" />
+                            </div>
+
+                            <div className="text-lg ">
+                                <div className="font-bold text-center md:text-left pb-2">MongoDB</div>
+                                 Software Engineer on the Atlas Data Lake team (August 2021 - Present)
+                                 <br />
+                                Software Engineer Intern on the Billing and Payments team (June 2020 - August 2020)
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row items-center border-0 drop-shadow-sm rounded-lg bg-custom-bg-color2 p-5 mt-5">
+                            <div className="mr-5 ml-5 w-14 shrink-0 mx-auto">
+                                <img src={legionlogo} alt="Legion Health" />
+                            </div>
+
+                            <div className="text-lg ">
+                                <div className="font-bold text-center md:text-left pb-2">Legion Health</div>
+                                Product Management Intern of clinician scheduling and availability (June 2021 - August 2021)
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row items-center border-0 drop-shadow-sm rounded-lg bg-custom-bg-color2 p-5 mt-5">
+                            <div className="mr-5 ml-5 w-14 shrink-0 mx-auto">
+                                <img src={servicenowlogo} alt="ServiceNow" />
+                            </div>
+
+                            <div className="text-lg ">
+                                <div className="font-bold text-center md:text-left pb-2">ServiceNow</div>
+                                 Software Engineer Intern on the Platforms Encryption team (May 2019 - August 2019)
+                            </div>
+                        </div>
+
+
 
 
                     </div>
@@ -142,7 +183,7 @@ const Resume = () => {
 
             </div>
             <div className="md:basis-1/3"></div>
-        </div>
+        </div >
     );
 };
 
