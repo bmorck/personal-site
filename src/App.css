@@ -61,6 +61,10 @@
   border-top-width: 1px;
 }
 
+.border-1 {
+  border-width: 1px;
+}
+
 .App-link {
   color: #61dafb;
 }

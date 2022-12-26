@@ -150,6 +150,23 @@ const Resume = () => {
                                  Software Engineer on the Atlas Data Lake team (August 2021 - Present)
                                  <br />
                                 Software Engineer Intern on the Billing and Payments team (June 2020 - August 2020)
+                                <div className="flex pt-2">
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Golang
+                                    </div>
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        C++
+                                    </div>
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Java
+                                    </div>
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Docker
+                                    </div>
+                                    <div className="border-1 text-sm p-1 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        gRPC
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -161,6 +178,14 @@ const Resume = () => {
                             <div className="text-lg ">
                                 <div className="font-bold text-center md:text-left pb-2">Legion Health</div>
                                 Product Management Intern of clinician scheduling and availability (June 2021 - August 2021)
+                                <div className="flex pt-2">
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Figma
+                                    </div>
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Javascript
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -172,6 +197,11 @@ const Resume = () => {
                             <div className="text-lg ">
                                 <div className="font-bold text-center md:text-left pb-2">ServiceNow</div>
                                  Software Engineer Intern on the Platforms Encryption team (May 2019 - August 2019)
+                                 <div className="flex pt-2">
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Java
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
