@@ -163,7 +163,7 @@ const Resume = () => {
                                     <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Java
                                     </div>
-                                    <div className="border-1 text-sm p-1 mr-4  mt-2rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Docker
                                     </div>
                                     <div className="border-1 text-sm p-1 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
