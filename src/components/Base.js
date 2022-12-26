@@ -89,7 +89,7 @@ const Base = ({ component }) => {
                             directions: "none",
                             enable: true,
                             outModes: {
-                                default: "none",
+                                default: "bounce",
                             },
                             random: false,
                             speed: 2,
