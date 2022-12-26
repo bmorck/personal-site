@@ -74,10 +74,16 @@ const Portfolio = () => {
                                 Python
                             </div>
                             <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
-                                PyGame
+                                Django
                             </div>
                             <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
-                                RLlib
+                                Bootstrap
+                            </div>
+                            <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                SQLite
+                            </div>
+                            <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                Heroku
                             </div>
                         </div>
                     </div>
@@ -121,13 +127,13 @@ const Portfolio = () => {
                         </div>
                         <div className="flex pt-2 flex-wrap">
                             <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
-                                Python
+                                ReactJS
                             </div>
                             <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
-                                PyGame
+                                Tailwindcss
                             </div>
                             <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
-                                RLlib
+                                Netlify
                             </div>
                         </div>
                     </div>
