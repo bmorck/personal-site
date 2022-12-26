@@ -36,7 +36,7 @@ const Resume = () => {
 
         <div className="grow justify-center flex fade-in2 pb-10 pt-10">
             <div className="md:basis-1/3"></div>
-            <div className="basis-4/5 md:basis-1/2 pl-5 pr-5 drop-shadow-md">
+            <div className="md:basis-1/2 pl-5 pr-5 drop-shadow-md w-10/12">
                 {browser === 1 ?
                     <div>
                         <core.Worker workerUrl="https://unpkg.com/pdfjs-dist@3.1.81/build/pdf.worker.min.js" />
@@ -151,10 +151,10 @@ const Resume = () => {
                                  <br />
                                 Software Engineer Intern on the Billing and Payments team (June 2020 - August 2020)
                                 <div className="flex pt-2 flex-wrap">
-                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Golang
                                     </div>
-                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         MongoDB
                                     </div>
                                     <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
@@ -166,7 +166,7 @@ const Resume = () => {
                                     <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Docker
                                     </div>
-                                    <div className="border-1 text-sm p-1 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         gRPC
                                     </div>
                                 </div>
