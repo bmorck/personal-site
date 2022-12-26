@@ -9,7 +9,7 @@ const Navbar = ({ }) => {
     const pathname = window.location.pathname
 
     return (
-        <div className="flex justify-center sm:justify-center-0 fade-in2">
+        <div className="flex justify-center sm:justify-center-0 fade-in2 font-regular-font">
             <div class="md:basis-1/3"></div>
             <div class="basis-4/5 md:basis-1/2  mt-6 text-xl pt-4 pb-4 nav-border border-gray-400">
                 <ul className="flex flex-row text-center text-base">
