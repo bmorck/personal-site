@@ -67,7 +67,7 @@ const Base = ({ component }) => {
                         modes: {
                             repulse: {
                                 distance: 50,
-                                duration: 0.4,
+                                duration: 5,
                             },
                         },
                     },
