@@ -18,7 +18,7 @@ const TopAppRouter = ({ }) => {
             <Route path="/" element={<Base />} />
             <Route path="/Home" element={<Base />} />
             <Route path="/Resume" element={<Base />} />
-            <Route path="/Portfolio" element={<ComingSoon />} />
+            <Route path="/Portfolio" element={<Base />} />
             <Route path="/Writing" element={<ComingSoon />} />
             <Route path="*" element={<NotFound />} />
         </Routes >

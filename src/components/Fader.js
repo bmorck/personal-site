@@ -8,7 +8,7 @@ const Fader = ({ text }) => {
     });
 
     return (
-        <div>
+        <div className="">
             <div className={`Name fade-in2`}>
                 {text}
             </div>
