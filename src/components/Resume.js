@@ -204,6 +204,10 @@ const Resume = () => {
                                     <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Java
                                     </div>
+
+                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        SQL
+                                    </div>
                                 </div>
                             </div>
                         </div>
