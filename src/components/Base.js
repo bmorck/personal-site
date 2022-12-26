@@ -44,18 +44,10 @@ const Base = ({ component }) => {
                         color: {
                             value: "#FFFBF0",
                         },
-                        opacity: 0,
+                        opacity: 0.5,
                     },
                     fpsLimit: 120,
                     fullScreen: false,
-                    backgroundMask: {
-                        cover: {
-                            color: {
-                                value: "#ffffff",
-                            },
-                            opacity: 0,
-                        },
-                    },
                     interactivity: {
                         events: {
                             onHover: {
@@ -79,7 +71,7 @@ const Base = ({ component }) => {
                             color: "#cfcfcf",
                             distance: 150,
                             enable: true,
-                            opacity: 1,
+                            opacity: 0.5,
                             width: 1,
                         },
                         collisions: {
@@ -100,16 +92,16 @@ const Base = ({ component }) => {
                                 enable: true,
                                 area: 800,
                             },
-                            value: 40,
+                            value: 80,
                         },
                         opacity: {
-                            value: 0.5,
+                            value: 0.3,
                         },
                         shape: {
                             type: "circle",
                         },
                         size: {
-                            value: { min: 1, max: 6 },
+                            value: { min: 1, max: 5 },
                         },
                     },
                     detectRetina: true,
