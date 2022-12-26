@@ -36,7 +36,7 @@ const Resume = () => {
 
         <div className="grow justify-center flex fade-in2 pb-10 pt-10">
             <div className="md:basis-1/3"></div>
-            <div className="md:basis-1/2 pl-5 pr-5 drop-shadow-md w-10/12">
+            <div className="md:basis-1/2 pl-5 pr-5 drop-shadow-md w-11/12">
                 {browser === 1 ?
                     <div>
                         <core.Worker workerUrl="https://unpkg.com/pdfjs-dist@3.1.81/build/pdf.worker.min.js" />
