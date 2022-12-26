@@ -150,23 +150,23 @@ const Resume = () => {
                                  Software Engineer on the Atlas Data Lake team (August 2021 - Present)
                                  <br />
                                 Software Engineer Intern on the Billing and Payments team (June 2020 - August 2020)
-                                <div className="flex pt-2">
+                                <div className="flex pt-2 flex-wrap">
                                     <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Golang
                                     </div>
                                     <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         MongoDB
                                     </div>
-                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         C++
                                     </div>
-                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Java
                                     </div>
-                                    <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mr-4  mt-2rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Docker
                                     </div>
-                                    <div className="border-1 text-sm p-1 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                    <div className="border-1 text-sm p-1 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         gRPC
                                     </div>
                                 </div>
