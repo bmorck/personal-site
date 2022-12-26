@@ -15,7 +15,7 @@ const Portfolio = () => {
                      </div>*/}
 
                     <div
-                        class="overflow-hidden mr-5 ml-5 mb-5 md:mb-0 w-36 shrink-0 rop-shadow-md rounded-md relative group hover:opacity-75"
+                        class="overflow-hidden mr-5 ml-5 mb-5 md:mb-0 w-36 shrink-0 rop-shadow-md rounded-md relative group hover:opacity-75 transition duration-500 ease-in-out"
                     >
                         <div
                             class="z-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 flex justify-center items-center"
