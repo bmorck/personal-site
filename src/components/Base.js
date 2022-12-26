@@ -58,7 +58,6 @@ const Base = ({ component }) => {
                     },
                     interactivity: {
                         events: {
-
                             onHover: {
                                 enable: true,
                                 mode: "repulse",
@@ -90,7 +89,7 @@ const Base = ({ component }) => {
                             directions: "none",
                             enable: true,
                             outModes: {
-                                default: "bounce",
+                                default: "none",
                             },
                             random: false,
                             speed: 2,
