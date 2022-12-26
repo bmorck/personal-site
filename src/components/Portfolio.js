@@ -1,5 +1,6 @@
 import React from 'react';
 import rlenv from "../files/RLEnv.png"
+import rlreport from "../files/RLreport.pdf"
 
 const Portfolio = () => {
     return (
@@ -22,7 +23,7 @@ const Portfolio = () => {
                             <div
                                 class="transform-gpu text-sm group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 transform transition duration-500 ease-in-out"
                             >
-                                <a href="https://github.com/bmorck/MultiCar-RL" class="font-bold underline text-stone-300 font-display-font">&lt; View Source &gt;</a>
+                                <div className=""><a href="https://github.com/bmorck/MultiCar-RL" class="font-bold text-stone-300 font-display-font border-1 border-stone-300 rounded-xl p-1 bg-slate-200 bg-opacity-20">&lt; View Source &gt;</a> </div>
                             </div>
 
                         </div>
@@ -35,8 +36,13 @@ const Portfolio = () => {
 
                     <div className="text-lg">
                         <div className="font-bold text-center md:text-left pb-2">Multi-Agent Reinforcement Learning</div>
-                        <div className="text-sm">
-
+                        <div className="text-xs">
+                            This project was created as a part of my Independent Research in school. The project involves using Reinforcement
+                            Learning to train multiple agents in various traffic environments to eliminate traffic and increase
+                            the velocity of all vehicles. Two traffic environments were explored, a circle and figure eight track, and two
+                            Reinforcement Learning policies were used: Proximal policy optimization (PPO) and Deep Q-Learning (DQN).
+                            <br />
+                            <a href={rlreport} className="underline text-stone-600"> Download Research Report </a>
                         </div>
                         <div className="flex pt-2 flex-wrap">
                             <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
