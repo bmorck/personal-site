@@ -17,10 +17,10 @@ const Portfolio = () => {
                         class="overflow-hidden mr-5 ml-5 w-36 shrink-0 rop-shadow-md rounded-md relative group hover:opacity-75"
                     >
                         <div
-                            class="z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 flex justify-center items-center"
+                            class="z-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out absolute from-black/80 to-transparent bg-gradient-to-t inset-0 flex justify-center items-center"
                         >
                             <div
-                                class="transform-gpu text-sm group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 transform transition duration-300 ease-in-out"
+                                class="transform-gpu text-sm group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 transform transition duration-500 ease-in-out"
                             >
                                 <a href="https://github.com/bmorck/TigerTravel" class="font-bold underline text-stone-300 font-display-font">&lt; View Source &gt;</a>
                             </div>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                         </div>
                         <img
                             alt=""
-                            class="inset-0 group-hover:scale-125 transition duration-300 ease-in-out"
+                            class="inset-0 group-hover:scale-125 transition duration-500 ease-in-out"
                             src={rlenv}
                         />
                     </div>
