@@ -24,6 +24,21 @@ code {
     url("./fonts/muli.regular.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Code";   /*Can be any text*/
+  src: local("Code"),
+    url("./fonts/Courier\ Prime.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Code2";   /*Can be any text*/
+  src: local("Code2"),
+    url("./fonts/SourceCodePro-Regular.ttf") format("truetype");
+}
+
+
+
+
 
 @tailwind base;
 @tailwind components;

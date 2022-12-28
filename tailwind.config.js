@@ -11,7 +11,9 @@ module.exports = {
       },
       fontFamily: {
         'display-font': ["NameFont"],
-        'regular-font': ["MuliRegular"]
+        'regular-font': ["MuliRegular"],
+        'code': ["Code"],
+        'code2': ["Code2"],
       }
     },
     variants: {
