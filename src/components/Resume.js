@@ -157,10 +157,13 @@ const Resume = () => {
                                         Java
                                     </div>
                                     <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
-                                        Trino
+                                        Python
                                     </div>
                                     <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Spark
+                                    </div>
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Iceberg
                                     </div>
 
                                 </div>
