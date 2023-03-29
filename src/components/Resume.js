@@ -6,6 +6,7 @@ import legionlogo from "../files/legionhealthlogo.png"
 import servicenowlogo from "../files/servicenowlogo.png"
 import princetonlogo from "../files/princetonlogo.png"
 import mongoDBlogo from "../files/mongodblogo.svg"
+import netflixLogo from "../files/netflix.png"
 
 
 const Resume = () => {
@@ -74,8 +75,8 @@ const Resume = () => {
 
                             <div className="text-lg ">
                                 <div className="font-bold text-center md:text-left pb-2">Princeton University</div>
-                                 Graduated in May 2021 with a B.S.E. in Computer Science
-                                 with a minor in Machine Learning
+                                Graduated in May 2021 with a B.S.E. in Computer Science
+                                with a minor in Machine Learning
                             </div>
                         </div>
                         <div className=" pl-5 pt-5">
@@ -100,7 +101,7 @@ const Resume = () => {
                                     COS 324 - Introduction to Machine Learning
                                 </li>
                                 <li>
-                                    ORF 333 - Advanced Programming Techniques
+                                    COS 333 - Advanced Programming Techniques
                                 </li>
                                 <li>
                                     COS 340 - Reasoning about Computation
@@ -140,15 +141,41 @@ const Resume = () => {
                         <div className="text-2xl pt-5 pb-5 text-center md:text-left">
                             Experience
                         </div>
+
                         <div className="flex flex-col md:flex-row items-center border-0 drop-shadow-sm rounded-lg bg-custom-bg-color2 p-5">
+                            <div className="mr-5 ml-5 w-14 shrink-0 mx-auto">
+                                <img src={netflixLogo} alt="Netflix" />
+                            </div>
+
+                            <div className="text-lg ">
+                                <div className="font-bold text-center md:text-left pb-2">Netflix</div>
+                                Software Engineer on the Big Data Compute and Warehouse team (March 2023 - Present)
+                                <br />
+
+                                <div className="flex pt-2 flex-wrap">
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Java
+                                    </div>
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Trino
+                                    </div>
+                                    <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
+                                        Spark
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row items-center border-0 drop-shadow-sm rounded-lg bg-custom-bg-color2 p-5 mt-5">
                             <div className="mr-5 ml-5 w-14 shrink-0 mx-auto">
                                 <img src={mongoDBlogo} alt="MongoDB" />
                             </div>
 
                             <div className="text-lg ">
                                 <div className="font-bold text-center md:text-left pb-2">MongoDB</div>
-                                 Software Engineer on the Atlas Data Lake team (August 2021 - Present)
-                                 <br />
+                                Software Engineer on the Atlas Data Lake team (August 2021 - February 2022)
+                                <br />
                                 Software Engineer Intern on the Billing and Payments team (June 2020 - August 2020)
                                 <div className="flex pt-2 flex-wrap">
                                     <div className="border-1 text-sm p-1 mr-4 mt-2 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
@@ -199,8 +226,8 @@ const Resume = () => {
 
                             <div className="text-lg ">
                                 <div className="font-bold text-center md:text-left pb-2">ServiceNow</div>
-                                 Software Engineer Intern on the Platforms Encryption team (May 2019 - August 2019)
-                                 <div className="flex pt-2">
+                                Software Engineer Intern on the Platforms Encryption team (May 2019 - August 2019)
+                                <div className="flex pt-2">
                                     <div className="border-1 text-sm p-1 mr-4 rounded-xl border-sky-200 bg-cyan-50 text-gray-500">
                                         Java
                                     </div>

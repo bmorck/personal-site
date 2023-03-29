@@ -5,11 +5,11 @@ const Content = () => {
         <div className="grow flex justify-center fade-in2 pl-5 pr-5 pb-10">
             <div className="md:basis-1/3"></div>
             <div className="basis-4/5 md:basis-1/2 mt-10 text-gray-600  font-regular-font">
-                Hello and welcome to my site. I'm a recent computer science graduate from Princeton
-                University and I'm currently working at MongoDB. In my current role,
-                I work on the Atlas Data Lake team where we are expanding MongoDB's cloud product offerings to
-                handle ETL and analytics workloads. I enjoy exploring topic areas
-                of distributed systems, blockchain, and machine learning.
+                Hello and welcome to my site. I'm a computer science graduate from Princeton
+                University and I'm currently working at Netflix. In my current role,
+                I work on the Big Data Compute and Warehouse team  where we are responsible for distributed
+                data processing. I enjoy exploring topic areas of distributed systems, blockchain, and machine learning;
+                specifically I'm interested in generative AI at the moment.
                 <br />
                 <br />
                 Here you can learn more about my work experience, projects,
